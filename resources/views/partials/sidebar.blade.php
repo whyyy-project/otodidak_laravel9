@@ -54,4 +54,8 @@
 
     </div>
 </div>
-        <div class="content-page">
+<div class="content-page">
+    <div class="content">
+        <h1>HALLO</h1>
+    </div>
+
