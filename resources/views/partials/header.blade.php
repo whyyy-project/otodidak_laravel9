@@ -42,13 +42,5 @@
     <!-- Begin page -->
     <div id="wrapper">
 
-       @include('layouts.topbar')
-
-        @include('layouts.sidebar')
-
         <div class="content-page">
-            <div class="content">
-            <h1>HALLO</h1>
-        </div>
 
-@include('layouts.footer')
