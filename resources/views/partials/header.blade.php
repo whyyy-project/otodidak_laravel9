@@ -42,5 +42,5 @@
     <!-- Begin page -->
     <div id="wrapper">
 
-        <div class="content-page">
+
 
