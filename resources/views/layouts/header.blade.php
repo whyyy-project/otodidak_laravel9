@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <title>
-        <?= $title ?>
+        Coba | Laravel
     </title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
     <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -12,28 +12,28 @@
     <meta name="keywords" content="">
     <meta name="" content="">
     <!-- Base Css Files -->
-    <link href="../assets/libs/jqueryui/ui-lightness/jquery-ui-1.10.4.custom.min.css" rel="stylesheet" />
-    <link href="../assets/libs/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
-    <link href="../assets/libs/font-awesome/css/font-awesome.min.css" rel="stylesheet" />
-    <link href="../assets/libs/fontello/css/fontello.css" rel="stylesheet" />
-    <link href="../assets/libs/animate-css/animate.min.css" rel="stylesheet" />
-    <link href="../assets/libs/nifty-modal/css/component.css" rel="stylesheet" />
-    <link href="../assets/libs/magnific-popup/magnific-popup.css" rel="stylesheet" />
-    <link href="../assets/libs/ios7-switch/ios7-switch.css" rel="stylesheet" />
-    <link href="../assets/libs/pace/pace.css" rel="stylesheet" />
-    <link href="../assets/libs/sortable/sortable-theme-bootstrap.css" rel="stylesheet" />
-    <link href="../assets/libs/bootstrap-datepicker/css/datepicker.css" rel="stylesheet" />
-    <link href="../assets/libs/jquery-icheck/skins/all.css" rel="stylesheet" />
+    <link href="assets/libs/jqueryui/ui-lightness/jquery-ui-1.10.4.custom.min.css" rel="stylesheet" />
+    <link href="assets/libs/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="assets/libs/font-awesome/css/font-awesome.min.css" rel="stylesheet" />
+    <link href="assets/libs/fontello/css/fontello.css" rel="stylesheet" />
+    <link href="assets/libs/animate-css/animate.min.css" rel="stylesheet" />
+    <link href="assets/libs/nifty-modal/css/component.css" rel="stylesheet" />
+    <link href="assets/libs/magnific-popup/magnific-popup.css" rel="stylesheet" />
+    <link href="assets/libs/ios7-switch/ios7-switch.css" rel="stylesheet" />
+    <link href="assets/libs/pace/pace.css" rel="stylesheet" />
+    <link href="assets/libs/sortable/sortable-theme-bootstrap.css" rel="stylesheet" />
+    <link href="assets/libs/bootstrap-datepicker/css/datepicker.css" rel="stylesheet" />
+    <link href="assets/libs/jquery-icheck/skins/all.css" rel="stylesheet" />
     <!-- Code Highlighter for Demo -->
-    <link href="../assets/libs/prettify/github.css" rel="stylesheet" />
+    <link href="assets/libs/prettify/github.css" rel="stylesheet" />
 
     <!-- Extra CSS Libraries Start -->
-    <link href="../assets/css/style.css" rel="stylesheet" type="text/css" />
+    <link href="assets/css/style.css" rel="stylesheet" type="text/css" />
     <!-- Extra CSS Libraries End -->
-    <link href="../assets/css/style-responsive.css" rel="stylesheet" />
+    <link href="assets/css/style-responsive.css" rel="stylesheet" />
 
-    <link href="../assets/libs/bootstrap-datepicker/css/datepicker.css" rel="stylesheet" />
-    <link rel="stylesheet" href="../assets/libs/jquery-notifyjs/styles/metro/notify-metro.css">
+    <link href="assets/libs/bootstrap-datepicker/css/datepicker.css" rel="stylesheet" />
+    <link rel="stylesheet" href="assets/libs/jquery-notifyjs/styles/metro/notify-metro.css">
 
     <link rel="shortcut icon" href="/images/unugiri.ico">
 </head>
@@ -63,7 +63,7 @@
                         <ul class="nav navbar-nav navbar-right top-navbar">
                             <li class="dropdown topbar-profile">
                                 <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-                                    <?= $nama ?> <i class="fa fa-caret-down"></i>
+                                    Wahyu <i class="fa fa-caret-down"></i>
                                 </a>
                                 <ul class="dropdown-menu">
                                     <li><a href="?hlm=dashboard">My Profile</a></li>
@@ -102,7 +102,7 @@
                     </div>
                     <div class="col-xs-8">
                         <div class="profile-text">Welcome <b>
-                                <?= $jenis ?>
+                                Wahyu
                             </b>
                         </div>
                     </div>
@@ -146,9 +146,12 @@
             <!-- ============================================================== -->
             <!-- Start Content here -->
             <!-- ============================================================== -->
-<!-- ============================================================== -->
-<!-- End content here -->
-<!-- ============================================================== -->
+            <div class="content">
+            <h1>HALLO</h1>
+            </div>
+            <!-- ============================================================== -->
+            <!-- End content here -->
+            <!-- ============================================================== -->
 </div>
 
 <!-- End right content -->
@@ -175,36 +178,36 @@
 
 </script>
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-<script src="../assets/libs/jquery/jquery-1.11.1.min.js"></script>
-<script src="../assets/libs/bootstrap/js/bootstrap.min.js"></script>
-<script src="../assets/libs/jqueryui/jquery-ui-1.10.4.custom.min.js"></script>
-<script src="../assets/libs/jquery-ui-touch/jquery.ui.touch-punch.min.js"></script>
-<script src="../assets/libs/jquery-detectmobile/detect.js"></script>
-<script src="../assets/libs/jquery-animate-numbers/jquery.animateNumbers.js"></script>
-<script src="../assets/libs/ios7-switch/ios7.switch.js"></script>
-<script src="../assets/libs/fastclick/fastclick.js"></script>
-<script src="../assets/libs/jquery-blockui/jquery.blockUI.js"></script>
-<script src="../assets/libs/bootstrap-bootbox/bootbox.min.js"></script>
-<script src="../assets/libs/jquery-slimscroll/jquery.slimscroll.js"></script>
-<script src="../assets/libs/jquery-sparkline/jquery-sparkline.js"></script>
-<script src="../assets/libs/nifty-modal/js/classie.js"></script>
-<!-- <script src="../assets/libs/nifty-modal/js/modalEffects.js"></script> -->
-<script src="../assets/libs/sortable/sortable.min.js"></script>
-<script src="../assets/libs/bootstrap-fileinput/bootstrap.file-input.js"></script>
-<script src="../assets/libs/bootstrap-select/bootstrap-select.min.js"></script>
-<script src="../assets/libs/bootstrap-select2/select2.min.js"></script>
-<script src="../assets/libs/magnific-popup/jquery.magnific-popup.min.js"></script>
-<script src="../assets/libs/pace/pace.min.js"></script>
-<script src="../assets/libs/bootstrap-datepicker/js/bootstrap-datepicker.js"></script>
-<script src="../assets/libs/jquery-icheck/icheck.min.js"></script>
+<script src="assets/libs/jquery/jquery-1.11.1.min.js"></script>
+<script src="assets/libs/bootstrap/js/bootstrap.min.js"></script>
+<script src="assets/libs/jqueryui/jquery-ui-1.10.4.custom.min.js"></script>
+<script src="assets/libs/jquery-ui-touch/jquery.ui.touch-punch.min.js"></script>
+<script src="assets/libs/jquery-detectmobile/detect.js"></script>
+<script src="assets/libs/jquery-animate-numbers/jquery.animateNumbers.js"></script>
+<script src="assets/libs/ios7-switch/ios7.switch.js"></script>
+<script src="assets/libs/fastclick/fastclick.js"></script>
+<script src="assets/libs/jquery-blockui/jquery.blockUI.js"></script>
+<script src="assets/libs/bootstrap-bootbox/bootbox.min.js"></script>
+<script src="assets/libs/jquery-slimscroll/jquery.slimscroll.js"></script>
+<script src="assets/libs/jquery-sparkline/jquery-sparkline.js"></script>
+<script src="assets/libs/nifty-modal/js/classie.js"></script>
+<!-- <script src="assets/libs/nifty-modal/js/modalEffects.js"></script> -->
+<script src="assets/libs/sortable/sortable.min.js"></script>
+<script src="assets/libs/bootstrap-fileinput/bootstrap.file-input.js"></script>
+<script src="assets/libs/bootstrap-select/bootstrap-select.min.js"></script>
+<script src="assets/libs/bootstrap-select2/select2.min.js"></script>
+<script src="assets/libs/magnific-popup/jquery.magnific-popup.min.js"></script>
+<script src="assets/libs/pace/pace.min.js"></script>
+<script src="assets/libs/bootstrap-datepicker/js/bootstrap-datepicker.js"></script>
+<script src="assets/libs/jquery-icheck/icheck.min.js"></script>
 
 <!-- Demo Specific JS Libraries -->
-<script src="../assets/libs/prettify/prettify.js"></script>
+<script src="assets/libs/prettify/prettify.js"></script>
 
-<script src="../assets/js/init.js"></script>
-<script src="../assets/libs/jquery-notifyjs/notify.min.js"></script>
-<script src="../assets/libs/jquery-notifyjs/styles/metro/notify-metro.js"></script>
-<script src="../assets/js/pages/notifications.js"></script>
+<script src="assets/js/init.js"></script>
+<script src="assets/libs/jquery-notifyjs/notify.min.js"></script>
+<script src="assets/libs/jquery-notifyjs/styles/metro/notify-metro.js"></script>
+<script src="assets/js/pages/notifications.js"></script>
 </body>
 </body>
 
