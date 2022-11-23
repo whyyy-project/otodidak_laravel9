@@ -29,7 +29,7 @@
         <div id="sidebar-menu">
             <ul>
                 <li class=''>
-                    <a href="index.php">
+                    <a href="./">
                         <i class='fa fa-home'></i><span>Dashboard</span> </i>
                     </a>
                 </li>
@@ -38,14 +38,14 @@
                         <i class='fa fa-book'></i><span>Data Fasilitas</span>
                         <span class="pull-right"><i class="fa fa-angle-down"></i></span></a>
                     <ul>
-                        <li><a href='?hlm=gedung'><i class="fa fa-building-o"></i> <span>Fasilitas
+                        <li><a href='./'><i class="fa fa-building-o"></i> <span>Fasilitas
                                     Gedung</span></a></li>
-                        <li><a href='?hlm=barang'><i class="fa fa-dashboard"></i> <span>Fasilitas
+                        <li><a href='./'><i class="fa fa-dashboard"></i> <span>Fasilitas
                                     barang</span></a></li>
                     </ul>
                 </li>
                 <li class=''>
-                    <a href="?hlm=riwayat">
+                    <a href="./">
                         <i class='fa fa-folder'></i><span>Riwayat Peminjaman</span> </i>
                     </a>
                 </li>
